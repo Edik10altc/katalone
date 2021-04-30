@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Meter properties" time="40.343" tests="1" failures="0" skips="0" errors="0">
+   <testsuite name="Meter properties" tests="1" failures="0" errors="0" time="40.343" skips="0" timestamp="2021-04-29 19:56:43" hostname="wamiwamisoftware - 192.168.88.86" id="Test Suites/Meter properties">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/wamiwamisoftware/Katalon Studio/fsight/Reports/20210429_195635/Meter properties/20210429_195635"/>
+         <property name="logFiles" value="/Users/wamiwamisoftware/Katalon Studio/fsight/Reports/20210429_195635/Meter properties/20210429_195635/execution0.log"/>
+         <property name="attachments" value="keyes/keyes-Modal Capacity:Validation for '-'.png, keyes/keyes-Value 20 was added.png, keyes/keyes-Value is displayed in another day.png"/>
+         <property name="hostName" value="wamiwamisoftware - 192.168.88.86"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.9.1.208"/>
+         <property name="browser" value="Chrome 90.0.4430.93"/>
+         <property name="hostAddress" value="192.168.88.86"/>
+         <property name="sessionId" value="964b3928366577455da8acee30d905c9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Batch Export Mode/Meter properties" time="39.012" classname="Test Cases/Batch Export Mode/Meter properties" status="PASSED">
+         <system-out><![CDATA[2021-04-29 19:56:44 - [TEST_CASE][PASSED] - Test Cases/Batch Export Mode/Meter properties: Test Cases/Batch Export Mode/Meter properties
+
+2021-04-29 19:56:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-04-29 19:56:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-04-29 19:56:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-04-29 19:56:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-04-29 19:56:50 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://andrey-wami.fsight.io/' successfully
+
+2021-04-29 19:56:54 - [MESSAGE][PASSED] - Navigate to 'https://andrey-wami.fsight.io/' successfully
+
+2021-04-29 19:56:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Log in to Keycloak/input_Username or email_username"), fsight_login): Text 'fsightadmin' is set on object 'Object Repository/Page_Log in to Keycloak/input_Username or email_username'
+
+2021-04-29 19:56:56 - [MESSAGE][PASSED] - Text 'fsightadmin' is set on object 'Object Repository/Page_Log in to Keycloak/input_Username or email_username'
+
+2021-04-29 19:56:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Log in to Keycloak/input_Password_password"), "n/iH/HO9iVbUUZghK8+ZWg=="): Text ****** has been set on object 'Object Repository/Page_Log in to Keycloak/input_Password_password'
+
+2021-04-29 19:56:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Log in to Keycloak/input_Password_password'
+
+2021-04-29 19:56:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Log in to Keycloak/input_Password_login")): Object: 'Object Repository/Page_Log in to Keycloak/input_Password_login' is clicked on
+
+2021-04-29 19:57:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log in to Keycloak/input_Password_login' is clicked on
+
+2021-04-29 19:57:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-04-29 19:57:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-04-29 19:57:04 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Predict_Page/Meter_Properties_block"), 1): Web element with id: 'Object Repository/Predict_Page/Meter_Properties_block' located by 'By.xpath: //*[@class='meter-properties']' is not present after '1' second(s)
+
+2021-04-29 19:57:05 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Predict_Page/Meter_Properties_block' located by 'By.xpath: //*[@class='meter-properties']' is not present after '1' second(s)
+
+2021-04-29 19:57:05 - [TEST_STEP][PASSED] - click(findTestObject("Predict_Page/filter_Meter")): Object: 'Object Repository/Predict_Page/filter_Meter' is clicked on
+
+2021-04-29 19:57:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Predict_Page/filter_Meter' is clicked on
+
+2021-04-29 19:57:06 - [TEST_STEP][PASSED] - click(findTestObject("Predict_Page/choose_meter_1071")): Object: 'Object Repository/Predict_Page/choose_meter_1071' is clicked on
+
+2021-04-29 19:57:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Predict_Page/choose_meter_1071' is clicked on
+
+2021-04-29 19:57:07 - [TEST_STEP][PASSED] - click(findTestObject("Predict_Page/filter_Meter")): Object: 'Object Repository/Predict_Page/filter_Meter' is clicked on
+
+2021-04-29 19:57:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Predict_Page/filter_Meter' is clicked on
+
+2021-04-29 19:57:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Predict_Page/Meter_Properties_block"), STOP_ON_FAILURE): Object 'Object Repository/Predict_Page/Meter_Properties_block' is visible
+
+2021-04-29 19:57:09 - [MESSAGE][PASSED] - Object 'Object Repository/Predict_Page/Meter_Properties_block' is visible
+
+2021-04-29 19:57:09 - [TEST_STEP][PASSED] - click(findTestObject("Predict_Page/edit_Meter_Properties")): Object: 'Object Repository/Predict_Page/edit_Meter_Properties' is clicked on
+
+2021-04-29 19:57:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Predict_Page/edit_Meter_Properties' is clicked on
+
+2021-04-29 19:57:10 - [TEST_STEP][PASSED] - click(findTestObject("Predict_Page/button_Close_meterPV_capacity")): Object: 'Object Repository/Predict_Page/button_Close_meterPV_capacity' is clicked on
+
+2021-04-29 19:57:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Predict_Page/button_Close_meterPV_capacity' is clicked on
+
+2021-04-29 19:57:11 - [TEST_STEP][PASSED] - click(findTestObject("Predict_Page/edit_Meter_Properties")): Object: 'Object Repository/Predict_Page/edit_Meter_Properties' is clicked on
+
+2021-04-29 19:57:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Predict_Page/edit_Meter_Properties' is clicked on
+
+2021-04-29 19:57:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Predict_Page/input_meterPV_capacity"), Keys.chord(COMMAND, "a")): Keys 'COMMAND + a' sent to object: 'Object Repository/Predict_Page/input_meterPV_capacity'
+
+2021-04-29 19:57:12 - [MESSAGE][PASSED] - Keys 'COMMAND + a' sent to object: 'Object Repository/Predict_Page/input_meterPV_capacity'
+
+2021-04-29 19:57:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Predict_Page/input_meterPV_capacity"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Predict_Page/input_meterPV_capacity'
+
+2021-04-29 19:57:13 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Predict_Page/input_meterPV_capacity'
+
+2021-04-29 19:57:13 - [TEST_STEP][PASSED] - setText(findTestObject("Predict_Page/input_meterPV_capacity"), "-"): Text '-' is set on object 'Object Repository/Predict_Page/input_meterPV_capacity'
+
+2021-04-29 19:57:14 - [MESSAGE][PASSED] - Text '-' is set on object 'Object Repository/Predict_Page/input_meterPV_capacity'
+
+2021-04-29 19:57:14 - [TEST_STEP][PASSED] - verifyElementNotClickable(findTestObject("Predict_Page/button_Save_meterPV_capacity")): Object 'Object Repository/Predict_Page/button_Save_meterPV_capacity' is NOT clickable
+
+2021-04-29 19:57:14 - [MESSAGE][PASSED] - Object 'Object Repository/Predict_Page/button_Save_meterPV_capacity' is NOT clickable
+
+2021-04-29 19:57:14 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("Modal Capacity:Validation for '-'", CONTINUE_ON_FAILURE): Taking screenshot successfully
+
+2021-04-29 19:57:16 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2021-04-29 19:57:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-Modal Capacity:Validation for '-'.png]]
+
+2021-04-29 19:57:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Predict_Page/input_meterPV_capacity"), Keys.chord(COMMAND, "a")): Keys 'COMMAND + a' sent to object: 'Object Repository/Predict_Page/input_meterPV_capacity'
+
+2021-04-29 19:57:17 - [MESSAGE][PASSED] - Keys 'COMMAND + a' sent to object: 'Object Repository/Predict_Page/input_meterPV_capacity'
+
+2021-04-29 19:57:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Predict_Page/input_meterPV_capacity"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Predict_Page/input_meterPV_capacity'
+
+2021-04-29 19:57:17 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Predict_Page/input_meterPV_capacity'
+
+2021-04-29 19:57:17 - [TEST_STEP][PASSED] - setText(findTestObject("Predict_Page/input_meterPV_capacity"), "20"): Text '20' is set on object 'Object Repository/Predict_Page/input_meterPV_capacity'
+
+2021-04-29 19:57:18 - [MESSAGE][PASSED] - Text '20' is set on object 'Object Repository/Predict_Page/input_meterPV_capacity'
+
+2021-04-29 19:57:18 - [TEST_STEP][PASSED] - click(findTestObject("Predict_Page/button_Save_meterPV_capacity")): Object: 'Object Repository/Predict_Page/button_Save_meterPV_capacity' is clicked on
+
+2021-04-29 19:57:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Predict_Page/button_Save_meterPV_capacity' is clicked on
+
+2021-04-29 19:57:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Predict_Page/pv_capacity_value"), "20 kWp", STOP_ON_FAILURE): Actual text and expected text of test object 'Object Repository/Predict_Page/pv_capacity_value' are matched.
+
+2021-04-29 19:57:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Predict_Page/pv_capacity_value' are matched.
+
+2021-04-29 19:57:19 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("Value 20 was added"): Taking screenshot successfully
+
+2021-04-29 19:57:20 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2021-04-29 19:57:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-Value 20 was added.png]]
+
+2021-04-29 19:57:20 - [TEST_STEP][PASSED] - click(findTestObject("Predict_Page/filter_Date_rightArrow")): Object: 'Object Repository/Predict_Page/filter_Date_rightArrow' is clicked on
+
+2021-04-29 19:57:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Predict_Page/filter_Date_rightArrow' is clicked on
+
+2021-04-29 19:57:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Predict_Page/pv_capacity_value"), "20 kWp"): Actual text and expected text of test object 'Object Repository/Predict_Page/pv_capacity_value' are matched.
+
+2021-04-29 19:57:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Predict_Page/pv_capacity_value' are matched.
+
+2021-04-29 19:57:22 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("Value is displayed in another day"): Taking screenshot successfully
+
+2021-04-29 19:57:23 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2021-04-29 19:57:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-Value is displayed in another day.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-04-29 19:56:43 - [TEST_SUITE][PASSED] - Meter properties: Test Cases/Batch Export Mode/Meter properties]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

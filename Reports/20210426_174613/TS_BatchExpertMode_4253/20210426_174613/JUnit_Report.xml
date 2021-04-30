@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_BatchExpertMode_4253" time="58.838" tests="1" failures="0" skips="0" errors="0">
+   <testsuite name="TS_BatchExpertMode_4253" tests="1" failures="0" errors="0" time="58.838" skips="0" timestamp="2021-04-26 17:46:30" hostname="wamiwamisoftware - localhost" id="Test Suites/TS_BatchExpertMode_4253">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/wamiwamisoftware/Katalon Studio/fsight/Reports/20210426_174613/TS_BatchExpertMode_4253/20210426_174613"/>
+         <property name="logFiles" value="/Users/wamiwamisoftware/Katalon Studio/fsight/Reports/20210426_174613/TS_BatchExpertMode_4253/20210426_174613/execution0.log"/>
+         <property name="attachments" value="keyes/keyes-Upload batch expert mode if there is a forecast or not.png"/>
+         <property name="hostName" value="wamiwamisoftware - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.9.1.208"/>
+         <property name="browser" value="Chrome 90.0.4430.85"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="b19c5f01b97f1ec448ea0591628465d4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Batch Export Mode/Upload batch expert mode if there is a forecast or not" time="28.373" classname="Test Cases/Batch Export Mode/Upload batch expert mode if there is a forecast or not" status="PASSED">
+         <system-out><![CDATA[2021-04-26 17:46:59 - [TEST_CASE][PASSED] - Test Cases/Batch Export Mode/Upload batch expert mode if there is a forecast or not: Test Cases/Batch Export Mode/Upload batch expert mode if there is a forecast or not
+
+2021-04-26 17:47:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Fsight - UI/input_Date_input-calendar")): Object: 'Object Repository/Page_Fsight - UI/input_Date_input-calendar' is clicked on
+
+2021-04-26 17:47:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Fsight - UI/input_Date_input-calendar' is clicked on
+
+2021-04-26 17:47:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Fsight - UI/button_February_Calendar__monthArrowWrapper -left")): Object: 'Object Repository/Page_Fsight - UI/button_February_Calendar__monthArrowWrapper -left' is clicked on
+
+2021-04-26 17:47:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Fsight - UI/button_February_Calendar__monthArrowWrapper -left' is clicked on
+
+2021-04-26 17:47:03 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-04-26 17:47:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-04-26 17:47:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Fsight - UI/button_February_Calendar__monthArrowWrapper -left")): Object: 'Object Repository/Page_Fsight - UI/button_February_Calendar__monthArrowWrapper -left' is clicked on
+
+2021-04-26 17:47:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Fsight - UI/button_February_Calendar__monthArrowWrapper -left' is clicked on
+
+2021-04-26 17:47:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_Fsight - UI/div_7")): Object: 'Object Repository/Page_Fsight - UI/div_7' is clicked on
+
+2021-04-26 17:47:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Fsight - UI/div_7' is clicked on
+
+2021-04-26 17:47:05 - [TEST_STEP][PASSED] - click(findTestObject("Page_Fsight - UI/div_7")): Object: 'Object Repository/Page_Fsight - UI/div_7' is clicked on
+
+2021-04-26 17:47:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Fsight - UI/div_7' is clicked on
+
+2021-04-26 17:47:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_Fsight - UI/div_MeterMeter")): Object: 'Object Repository/Page_Fsight - UI/div_MeterMeter' is clicked on
+
+2021-04-26 17:47:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Fsight - UI/div_MeterMeter' is clicked on
+
+2021-04-26 17:47:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-04-26 17:47:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-04-26 17:47:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_Fsight - UI/input")): Object: 'Object Repository/Page_Fsight - UI/input' is clicked on
+
+2021-04-26 17:47:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Fsight - UI/input' is clicked on
+
+2021-04-26 17:47:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_Fsight - UI/div_MeterMeter")): Object: 'Object Repository/Page_Fsight - UI/div_MeterMeter' is clicked on
+
+2021-04-26 17:47:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Fsight - UI/div_MeterMeter' is clicked on
+
+2021-04-26 17:47:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-04-26 17:47:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-04-26 17:47:12 - [TEST_STEP][PASSED] - click(findTestObject("Page_Fsight - UI/BatchExpertMode_Button")): Object: 'Object Repository/Page_Fsight - UI/BatchExpertMode_Button' is clicked on
+
+2021-04-26 17:47:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Fsight - UI/BatchExpertMode_Button' is clicked on
+
+2021-04-26 17:47:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Fsight - UI/AddTag_Button")): Object 'Object Repository/Page_Fsight - UI/AddTag_Button' is visible
+
+2021-04-26 17:47:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Fsight - UI/AddTag_Button' is visible
+
+2021-04-26 17:47:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-04-26 17:47:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-04-26 17:47:14 - [TEST_STEP][PASSED] - uploadFileWithDragAndDrop(findTestObject("Page_Fsight - UI/Upload_file"), "/Users/wamiwamisoftware/Downloads/withoutforecast.csv"): null
+
+2021-04-26 17:47:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-04-26 17:47:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-04-26 17:47:17 - [TEST_STEP][PASSED] - click(findTestObject("Page_Fsight - UI/ExpertMode_Button_Save")): Object: 'Object Repository/Page_Fsight - UI/ExpertMode_Button_Save' is clicked on
+
+2021-04-26 17:47:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Fsight - UI/ExpertMode_Button_Save' is clicked on
+
+2021-04-26 17:47:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-04-26 17:47:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-04-26 17:47:21 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("Upload batch expert mode if there is a forecast or not"): Taking screenshot successfully
+
+2021-04-26 17:47:24 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2021-04-26 17:47:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-Upload batch expert mode if there is a forecast or not.png]]
+
+2021-04-26 17:47:25 - [TEST_STEP][PASSED] - click(findTestObject("Page_Fsight - UI/BatchExpertMode_Button")): Object: 'Object Repository/Page_Fsight - UI/BatchExpertMode_Button' is clicked on
+
+2021-04-26 17:47:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Fsight - UI/BatchExpertMode_Button' is clicked on
+
+2021-04-26 17:47:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Fsight - UI/span_Delete")): Object: 'Object Repository/Page_Fsight - UI/span_Delete' is clicked on
+
+2021-04-26 17:47:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Fsight - UI/span_Delete' is clicked on
+
+2021-04-26 17:47:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_Fsight - UI/ExpertMode_Button_Save")): Object: 'Object Repository/Page_Fsight - UI/ExpertMode_Button_Save' is clicked on
+
+2021-04-26 17:47:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Fsight - UI/ExpertMode_Button_Save' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-04-26 17:46:30 - [TEST_SUITE][PASSED] - TS_BatchExpertMode_4253: Test Cases/Batch Export Mode/Upload batch expert mode if there is a forecast or not]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

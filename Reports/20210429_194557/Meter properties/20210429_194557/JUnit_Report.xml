@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Meter properties" time="30.8" tests="1" failures="1" skips="0" errors="0">
+   <testsuite name="Meter properties" tests="1" failures="1" errors="0" time="30.8" skips="0" timestamp="2021-04-29 19:46:05" hostname="wamiwamisoftware - localhost" id="Test Suites/Meter properties">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/wamiwamisoftware/Katalon Studio/fsight/Reports/20210429_194557/Meter properties/20210429_194557"/>
+         <property name="logFiles" value="/Users/wamiwamisoftware/Katalon Studio/fsight/Reports/20210429_194557/Meter properties/20210429_194557/execution0.log"/>
+         <property name="attachments" value="keyes/keyes-Modal Capacity:Validation for '-'.png, /Users/wamiwamisoftware/Katalon Studio/fsight/Reports/20210429_194557/Meter properties/20210429_194557/1619714795577.png, /Users/wamiwamisoftware/Katalon Studio/fsight/Reports/20210429_194557/Meter properties/20210429_194557/1619714795775.png"/>
+         <property name="hostName" value="wamiwamisoftware - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.9.1.208"/>
+         <property name="browser" value="Chrome 90.0.4430.93"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="11acb35bdc86ff4e5be7460b88c88dab"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Batch Export Mode/Meter properties" time="29.213" classname="Test Cases/Batch Export Mode/Meter properties" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Batch Export Mode/Meter properties FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Predict_Page/pv_capacity_value' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4690)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$9.call(Unknown Source)
+	at Meter properties.run(Meter properties:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1619714757156.run(TempTestSuite1619714757156.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '220 kWp' and expected text '20 kWp' of test object 'Object Repository/Predict_Page/pv_capacity_value' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-04-29 19:46:06 - [TEST_CASE][FAILED] - Test Cases/Batch Export Mode/Meter properties: Test Cases/Batch Export Mode/Meter properties FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Predict_Page/pv_capacity_value' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4690)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$9.call(Unknown Source)
+	at Meter properties.run(Meter properties:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1619714757156.run(TempTestSuite1619714757156.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '220 kWp' and expected text '20 kWp' of test object 'Object Repository/Predict_Page/pv_capacity_value' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-04-29 19:46:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-04-29 19:46:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-04-29 19:46:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-04-29 19:46:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-04-29 19:46:12 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://andrey-wami.fsight.io/' successfully
+
+2021-04-29 19:46:16 - [MESSAGE][PASSED] - Navigate to 'https://andrey-wami.fsight.io/' successfully
+
+2021-04-29 19:46:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Log in to Keycloak/input_Username or email_username"), fsight_login): Text 'fsightadmin' is set on object 'Object Repository/Page_Log in to Keycloak/input_Username or email_username'
+
+2021-04-29 19:46:17 - [MESSAGE][PASSED] - Text 'fsightadmin' is set on object 'Object Repository/Page_Log in to Keycloak/input_Username or email_username'
+
+2021-04-29 19:46:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Log in to Keycloak/input_Password_password"), "n/iH/HO9iVbUUZghK8+ZWg=="): Text ****** has been set on object 'Object Repository/Page_Log in to Keycloak/input_Password_password'
+
+2021-04-29 19:46:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Log in to Keycloak/input_Password_password'
+
+2021-04-29 19:46:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Log in to Keycloak/input_Password_login")): Object: 'Object Repository/Page_Log in to Keycloak/input_Password_login' is clicked on
+
+2021-04-29 19:46:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log in to Keycloak/input_Password_login' is clicked on
+
+2021-04-29 19:46:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-04-29 19:46:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-04-29 19:46:23 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Predict_Page/Meter_Properties_block"), 1): Web element with id: 'Object Repository/Predict_Page/Meter_Properties_block' located by 'By.xpath: //*[@class='meter-properties']' is not present after '1' second(s)
+
+2021-04-29 19:46:24 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Predict_Page/Meter_Properties_block' located by 'By.xpath: //*[@class='meter-properties']' is not present after '1' second(s)
+
+2021-04-29 19:46:24 - [TEST_STEP][PASSED] - click(findTestObject("Predict_Page/filter_Meter")): Object: 'Object Repository/Predict_Page/filter_Meter' is clicked on
+
+2021-04-29 19:46:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Predict_Page/filter_Meter' is clicked on
+
+2021-04-29 19:46:24 - [TEST_STEP][PASSED] - click(findTestObject("Predict_Page/choose_meter_1071")): Object: 'Object Repository/Predict_Page/choose_meter_1071' is clicked on
+
+2021-04-29 19:46:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Predict_Page/choose_meter_1071' is clicked on
+
+2021-04-29 19:46:25 - [TEST_STEP][PASSED] - click(findTestObject("Predict_Page/filter_Meter")): Object: 'Object Repository/Predict_Page/filter_Meter' is clicked on
+
+2021-04-29 19:46:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Predict_Page/filter_Meter' is clicked on
+
+2021-04-29 19:46:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Predict_Page/Meter_Properties_block"), STOP_ON_FAILURE): Object 'Object Repository/Predict_Page/Meter_Properties_block' is visible
+
+2021-04-29 19:46:27 - [MESSAGE][PASSED] - Object 'Object Repository/Predict_Page/Meter_Properties_block' is visible
+
+2021-04-29 19:46:27 - [TEST_STEP][PASSED] - click(findTestObject("Predict_Page/edit_Meter_Properties")): Object: 'Object Repository/Predict_Page/edit_Meter_Properties' is clicked on
+
+2021-04-29 19:46:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Predict_Page/edit_Meter_Properties' is clicked on
+
+2021-04-29 19:46:27 - [TEST_STEP][PASSED] - click(findTestObject("Predict_Page/button_Close_meterPV_capacity")): Object: 'Object Repository/Predict_Page/button_Close_meterPV_capacity' is clicked on
+
+2021-04-29 19:46:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Predict_Page/button_Close_meterPV_capacity' is clicked on
+
+2021-04-29 19:46:28 - [TEST_STEP][PASSED] - click(findTestObject("Predict_Page/edit_Meter_Properties")): Object: 'Object Repository/Predict_Page/edit_Meter_Properties' is clicked on
+
+2021-04-29 19:46:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Predict_Page/edit_Meter_Properties' is clicked on
+
+2021-04-29 19:46:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Predict_Page/input_meterPV_capacity"), Keys.chord(COMMAND, "a")): Keys 'COMMAND + a' sent to object: 'Object Repository/Predict_Page/input_meterPV_capacity'
+
+2021-04-29 19:46:29 - [MESSAGE][PASSED] - Keys 'COMMAND + a' sent to object: 'Object Repository/Predict_Page/input_meterPV_capacity'
+
+2021-04-29 19:46:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Predict_Page/input_meterPV_capacity"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Predict_Page/input_meterPV_capacity'
+
+2021-04-29 19:46:29 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Predict_Page/input_meterPV_capacity'
+
+2021-04-29 19:46:29 - [TEST_STEP][PASSED] - setText(findTestObject("Predict_Page/input_meterPV_capacity"), "-"): Text '-' is set on object 'Object Repository/Predict_Page/input_meterPV_capacity'
+
+2021-04-29 19:46:30 - [MESSAGE][PASSED] - Text '-' is set on object 'Object Repository/Predict_Page/input_meterPV_capacity'
+
+2021-04-29 19:46:30 - [TEST_STEP][PASSED] - verifyElementNotClickable(findTestObject("Predict_Page/button_Save_meterPV_capacity")): Object 'Object Repository/Predict_Page/button_Save_meterPV_capacity' is NOT clickable
+
+2021-04-29 19:46:31 - [MESSAGE][PASSED] - Object 'Object Repository/Predict_Page/button_Save_meterPV_capacity' is NOT clickable
+
+2021-04-29 19:46:31 - [TEST_STEP][PASSED] - takeFullPageScreenshotAsCheckpoint("Modal Capacity:Validation for '-'", CONTINUE_ON_FAILURE): Taking screenshot successfully
+
+2021-04-29 19:46:32 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2021-04-29 19:46:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-Modal Capacity:Validation for '-'.png]]
+
+2021-04-29 19:46:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Predict_Page/input_meterPV_capacity"), Keys.chord(COMMAND, "a")): Keys 'COMMAND + a' sent to object: 'Object Repository/Predict_Page/input_meterPV_capacity'
+
+2021-04-29 19:46:33 - [MESSAGE][PASSED] - Keys 'COMMAND + a' sent to object: 'Object Repository/Predict_Page/input_meterPV_capacity'
+
+2021-04-29 19:46:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Predict_Page/input_meterPV_capacity"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Predict_Page/input_meterPV_capacity'
+
+2021-04-29 19:46:33 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Predict_Page/input_meterPV_capacity'
+
+2021-04-29 19:46:33 - [TEST_STEP][PASSED] - setText(findTestObject("Predict_Page/input_meterPV_capacity"), "20"): Text '20' is set on object 'Object Repository/Predict_Page/input_meterPV_capacity'
+
+2021-04-29 19:46:34 - [MESSAGE][PASSED] - Text '20' is set on object 'Object Repository/Predict_Page/input_meterPV_capacity'
+
+2021-04-29 19:46:34 - [TEST_STEP][PASSED] - click(findTestObject("Predict_Page/button_Save_meterPV_capacity")): Object: 'Object Repository/Predict_Page/button_Save_meterPV_capacity' is clicked on
+
+2021-04-29 19:46:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Predict_Page/button_Save_meterPV_capacity' is clicked on
+
+2021-04-29 19:46:34 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Predict_Page/pv_capacity_value"), "20 kWp"): Verify element text of test object 'Object Repository/Predict_Page/pv_capacity_value' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Predict_Page/pv_capacity_value' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4690)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$9.call(Unknown Source)
+	at Meter properties.run(Meter properties:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1619714757156.run(TempTestSuite1619714757156.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '220 kWp' and expected text '20 kWp' of test object 'Object Repository/Predict_Page/pv_capacity_value' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2021-04-29 19:46:35 - [MESSAGE][FAILED] - Actual text '220 kWp' and expected text '20 kWp' of test object 'Object Repository/Predict_Page/pv_capacity_value' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '220 kWp' and expected text '20 kWp' of test object 'Object Repository/Predict_Page/pv_capacity_value' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4690)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$9.call(Unknown Source)
+	at Meter properties.run(Meter properties:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1619714757156.run(TempTestSuite1619714757156.groovy:39)
+)
+[[ATTACHMENT|/Users/wamiwamisoftware/Katalon Studio/fsight/Reports/20210429_194557/Meter properties/20210429_194557/1619714795577.png]]
+
+2021-04-29 19:46:35 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Predict_Page/pv_capacity_value' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Predict_Page/pv_capacity_value' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4690)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$9.call(Unknown Source)
+	at Meter properties.run(Meter properties:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1619714757156.run(TempTestSuite1619714757156.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '220 kWp' and expected text '20 kWp' of test object 'Object Repository/Predict_Page/pv_capacity_value' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|/Users/wamiwamisoftware/Katalon Studio/fsight/Reports/20210429_194557/Meter properties/20210429_194557/1619714795775.png]]]]></system-out>
+         <system-err><![CDATA[2021-04-29 19:46:06 - [TEST_CASE][FAILED] - Test Cases/Batch Export Mode/Meter properties: Test Cases/Batch Export Mode/Meter properties FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Predict_Page/pv_capacity_value' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4690)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$9.call(Unknown Source)
+	at Meter properties.run(Meter properties:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1619714757156.run(TempTestSuite1619714757156.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '220 kWp' and expected text '20 kWp' of test object 'Object Repository/Predict_Page/pv_capacity_value' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-04-29 19:46:05 - [TEST_SUITE][FAILED] - Meter properties: Test Cases/Batch Export Mode/Meter properties FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Predict_Page/pv_capacity_value' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4690)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$9.call(Unknown Source)
+	at Meter properties.run(Meter properties:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1619714757156.run(TempTestSuite1619714757156.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '220 kWp' and expected text '20 kWp' of test object 'Object Repository/Predict_Page/pv_capacity_value' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2021-04-29 19:46:05 - [TEST_SUITE][FAILED] - Meter properties: Test Cases/Batch Export Mode/Meter properties FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Predict_Page/pv_capacity_value' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4690)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$9.call(Unknown Source)
+	at Meter properties.run(Meter properties:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1619714757156.run(TempTestSuite1619714757156.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text '220 kWp' and expected text '20 kWp' of test object 'Object Repository/Predict_Page/pv_capacity_value' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

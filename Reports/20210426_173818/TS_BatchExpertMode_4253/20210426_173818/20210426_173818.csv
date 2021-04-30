@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_BatchExpertMode_4253,Chrome 90.0.4430.85,,,2021-04-26 17:38:41,2021-04-26 17:40:45,2m - 4.118s,FAILED
+,,,,,,,
+Test Cases/Batch Export Mode/Upload batch expert mode if there is a forecast or not,Chrome 90.0.4430.85,,,2021-04-26 17:40:03,2021-04-26 17:40:45,41.936s,FAILED
+"click(findTestObject(""Object Repository/Page_Fsight - UI/input_Date_input-calendar""))",Chrome 90.0.4430.85,,,2021-04-26 17:40:09,2021-04-26 17:40:16,7.440s,PASSED
+"click(findTestObject(""Object Repository/Page_Fsight - UI/button_February_Calendar__monthArrowWrapper -left""))",Chrome 90.0.4430.85,,,2021-04-26 17:40:16,2021-04-26 17:40:17,0.757s,PASSED
+delay(1),Chrome 90.0.4430.85,,,2021-04-26 17:40:17,2021-04-26 17:40:18,1.009s,PASSED
+"click(findTestObject(""Object Repository/Page_Fsight - UI/button_February_Calendar__monthArrowWrapper -left""))",Chrome 90.0.4430.85,,,2021-04-26 17:40:18,2021-04-26 17:40:18,0.698s,PASSED
+"click(findTestObject(""Page_Fsight - UI/div_7""))",Chrome 90.0.4430.85,,,2021-04-26 17:40:18,2021-04-26 17:40:20,1.089s,PASSED
+"click(findTestObject(""Page_Fsight - UI/div_7""))",Chrome 90.0.4430.85,,,2021-04-26 17:40:20,2021-04-26 17:40:21,1.600s,PASSED
+"click(findTestObject(""Page_Fsight - UI/div_MeterMeter""))",Chrome 90.0.4430.85,,,2021-04-26 17:40:21,2021-04-26 17:40:22,1.010s,PASSED
+delay(1),Chrome 90.0.4430.85,,,2021-04-26 17:40:22,2021-04-26 17:40:23,1.040s,PASSED
+"click(findTestObject(""Page_Fsight - UI/input""))",Chrome 90.0.4430.85,,,2021-04-26 17:40:23,2021-04-26 17:40:25,1.726s,PASSED
+"click(findTestObject(""Page_Fsight - UI/div_MeterMeter""))",Chrome 90.0.4430.85,,,2021-04-26 17:40:25,2021-04-26 17:40:35,10.310s,PASSED
+delay(1),Chrome 90.0.4430.85,,,2021-04-26 17:40:35,2021-04-26 17:40:36,1.010s,PASSED
+"click(findTestObject(""Page_Fsight - UI/BatchExpertMode_Button""))",Chrome 90.0.4430.85,,,2021-04-26 17:40:36,2021-04-26 17:40:38,1.928s,PASSED
+"verifyElementVisible(findTestObject(""Page_Fsight - UI/AddTag_Button""))",Chrome 90.0.4430.85,,,2021-04-26 17:40:38,2021-04-26 17:40:39,1.295s,PASSED
+delay(1),Chrome 90.0.4430.85,,,2021-04-26 17:40:39,2021-04-26 17:40:40,1.010s,PASSED
+"uploadFileWithDragAndDrop(findTestObject(""Page_Fsight - UI/Upload_file""), ""/Users/wamiwamisoftware/Downloads/withoutforecast.csv"")",Chrome 90.0.4430.85,,,2021-04-26 17:40:40,2021-04-26 17:40:41,0.823s,PASSED
+delay(2),Chrome 90.0.4430.85,,,2021-04-26 17:40:41,2021-04-26 17:40:43,2.008s,PASSED
+"click(findTestObject(""Page_Fsight - UI/ExpertMode_Button_Save""))",Chrome 90.0.4430.85,,,2021-04-26 17:40:43,2021-04-26 17:40:45,2.070s,FAILED

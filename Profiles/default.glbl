@@ -4,4 +4,14 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://andrey-wami.fsight.io/'</initValue>
+      <name>baseUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'fsightadmin'</initValue>
+      <name>fsight_login</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

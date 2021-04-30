@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Upload batch expert mode if there is a forecast or not</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c09ddabb-1582-41bb-875b-852ffddec7a2</testCaseGuid>
+</TestCaseEntity>
